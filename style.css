@@ -1,8 +1,26 @@
 *{
-    all: unset;
     margin:0;
     padding:0;
     box-sizing: border-box;
 
     border: black dotted 2px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    border: none;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+}
+
+.header {
+    grid-column: 2 / 3;
+}
+
+.main-content {
+    grid-column: 2 / 3;
 }
