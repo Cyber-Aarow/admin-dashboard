@@ -15,21 +15,49 @@ body {
     border: none;
 }
 
-.sidebar {
-    grid-area: 1 / 1 / -1 / 2;
+/* Display: Grid */
 
+.header, .header-left, .header-right,
+.sidebar,
+.main-content {
     display: grid;
 }
 
+/* Header */
 .header {
     grid-column: 2 / 3;
 
-    display: grid;
     grid-auto-flow: column;
 }
 
+.header-left {
+
+}
+
+.header-right{
+
+}
+
+.top-buttons{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(0, 124, 196);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+
+
+}
+
+/* Main Content */
 .main-content {
     grid-column: 2 / 3;
 
-    display: grid;
+
 }
+
