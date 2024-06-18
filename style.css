@@ -19,7 +19,7 @@ body {
 
 .header, .header-left, .header-right,
 .sidebar,
-.main-content {
+.main-content, .mc-left, .mc-right {
     display: grid;
 }
 
@@ -58,6 +58,6 @@ body {
 .main-content {
     grid-column: 2 / 3;
 
-
+    grid-auto-flow: column;
 }
 
