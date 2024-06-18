@@ -53,6 +53,7 @@ body {
     font-size: x-large;
     font-weight: bold;
     background-color: rgb(0, 124, 196);
+    grid-template-rows: 100px 1fr;
 }
 
 /* Main Content */
@@ -65,9 +66,13 @@ body {
 }
 
 .mc-left {
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 50px 1fr;
 }
 .projects-area {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+.mc-right {
+    grid-template-rows: 50px 1fr 50px 1fr;
 }
