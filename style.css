@@ -61,6 +61,7 @@ body {
 
     grid-auto-flow: column;
     grid-template-columns: 3fr 1fr;
+    background-color: rgb(228, 231, 233);
 }
 
 .mc-left {
