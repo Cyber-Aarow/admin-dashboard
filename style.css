@@ -2,8 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
-    border: black dotted 2px;
+    text-decoration: none;
+    border: none;
 }
 
 body {
@@ -12,7 +12,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
-    border: none;
+
+    font-family: sans-serif;
+
 }
 
 /* Display: Grid */
@@ -75,4 +77,8 @@ body {
 
 .mc-right {
     grid-template-rows: 50px 1fr 50px 1fr;
+}
+
+h3 {
+    margin: 29px 0 0 20px;
 }
