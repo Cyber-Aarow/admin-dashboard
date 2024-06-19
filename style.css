@@ -28,6 +28,8 @@ body {
 /* Header */
 .header {
     grid-column: 2 / 3;
+
+    
 }
 
 .header-top {
@@ -73,6 +75,17 @@ body {
 .projects-area {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+.project {
+    height: 85%;
+    width: 75%;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background: linear-gradient(to right, rgb(255, 189, 67) 8px, #f2f2f2 0);
 }
 
 .mc-right {
