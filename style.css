@@ -79,9 +79,9 @@ body {
 
 .project {
     height: 85%;
-    width: 75%;
+    width: 80%;
     background-color: white;
-    align-self: center;
+    align-self: top;
     justify-self: center;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
@@ -89,9 +89,23 @@ body {
 }
 
 .mc-right {
-    grid-template-rows: 50px 1fr 50px 1fr;
+    grid-template-rows: 50px 1fr 30px 1fr;
+}
+
+.announcements, .trending {
+    height: 90%;
+    width: 75%;
+    background-color: white;
+    align-self: top;
+    justify-self: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 h3 {
-    margin: 29px 0 0 20px;
+    margin: 25px 0 0 50px;
+}
+
+.trending-h3 {
+    margin-top: 5px;
 }
