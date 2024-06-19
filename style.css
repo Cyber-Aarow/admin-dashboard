@@ -60,6 +60,8 @@ body {
     grid-template-rows: 100px 1fr;
 }
 
+
+
 /* Main Content */
 .main-content {
     grid-column: 2 / 3;
@@ -108,4 +110,15 @@ h3 {
 
 .trending-h3 {
     margin-top: 5px;
+}
+
+h4 {
+    margin: 30px 40px 2px 25px;
+    font-size: larger;
+}
+
+p {
+    margin: 0 15% 0 25px;
+    font-size: medium;
+    color: gray;
 }
