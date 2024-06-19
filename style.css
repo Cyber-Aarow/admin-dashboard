@@ -60,7 +60,9 @@ body {
     grid-template-rows: 100px 1fr;
 }
 
-
+.home {
+    background: url(icons/home.svg) no-repeat;
+}
 
 /* Main Content */
 .main-content {
