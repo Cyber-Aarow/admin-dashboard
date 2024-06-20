@@ -75,7 +75,45 @@ li {
     background-position: 8%;
 }
 
+.profile {
+    background: url(icons/profile.svg) no-repeat;
+    background-position: 8%;
+}
 
+.messages {
+    background: url(icons/messages.svg) no-repeat;
+    background-position: 8%;
+}
+
+.history {
+    background: url(icons/history.svg) no-repeat;
+    background-position: 8%;
+}
+
+.tasks {
+    background: url(icons/tasks.svg) no-repeat;
+    background-position: 8%;
+}
+
+.communities {
+    background: url(icons/community.svg) no-repeat;
+    background-position: 8%;
+}
+
+.settings {
+    background: url(icons/settings.svg) no-repeat;
+    background-position: 8%;
+}
+
+.support {
+    background: url(icons/support.svg) no-repeat;
+    background-position: 8%;
+}
+
+.privacy {
+    background: url(icons/privacy.svg) no-repeat;
+    background-position: 8%;
+}
 
 /* Main Content */
 .main-content {
