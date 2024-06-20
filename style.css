@@ -70,6 +70,14 @@ li {
     padding: 20px 0 20px;
 }
 
+.dashboard {
+    background: url(icons/dashboard.svg) no-repeat;
+    background-position: 6%;
+    background-size: 50px;
+    padding: 33px 0 0 80px;
+    font-size: xx-large;
+}
+
 .home {
     background: url(icons/home.svg) no-repeat;
     background-position: 8%;
