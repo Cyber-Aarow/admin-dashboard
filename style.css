@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
     border: none;
 }
 
@@ -60,9 +61,21 @@ body {
     grid-template-rows: 100px 1fr;
 }
 
+li {
+    padding-left: 70px;
+    margin: 10px 0 10px;
+}
+
+.list-space {
+    padding: 20px 0 20px;
+}
+
 .home {
     background: url(icons/home.svg) no-repeat;
+    background-position: 8%;
 }
+
+
 
 /* Main Content */
 .main-content {
