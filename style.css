@@ -50,6 +50,33 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
+.user-greeting {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 130px 1fr;
+}
+
+.pfp {
+    justify-self: center;
+    align-self: center;
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hi-there {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.user {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 /* Sidebar */
 .sidebar {
     grid-area: 1 / 1 / -1 / 2;
