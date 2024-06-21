@@ -102,6 +102,14 @@ li {
     margin: 10px 0 10px;
 }
 
+li:hover {
+    background-color: rgb(7, 87, 153);
+}
+
+.list-space:hover {
+    background-color: rgb(0, 124, 196);
+}
+
 .list-space {
     padding: 20px 0 20px;
 }
