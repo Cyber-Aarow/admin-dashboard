@@ -20,21 +20,45 @@ body {
 
 /* Display: Grid */
 
-.header, .header-top, .header-bottom, .header-buttons,
+.header, 
+.header-top, .search-area,
+.header-bottom, .header-buttons,
 .sidebar,
-.main-content, .mc-left, .projects-area, .mc-right {
+.main-content, 
+.mc-left, .projects-area,
+.mc-right {
     display: grid;
 }
 
 /* Header */
 .header {
     grid-column: 2 / 3;
-
-    
 }
 
 .header-top {
     grid-auto-flow: column;
+}
+
+.search-area {
+    grid-auto-flow: column;
+    grid-template-columns: 70px 1fr;
+    gap: 10px
+}
+
+#search-button {
+    background: url(icons/search.svg);
+    height:30px;
+    width: 30px;
+    justify-self: right;
+    align-self: center;
+}
+#search-bar {
+    align-self: center;
+    justify-self: left;
+    background-color: rgb(228, 231, 233);
+    height: 35px;
+    width: 89%;
+    border-radius: 10px;
 }
 
 .header-bottom{
