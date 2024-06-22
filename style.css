@@ -153,66 +153,20 @@ img {
 }
 
 .dashboard {
-    /*background: url(icons/dashboard.svg) no-repeat;
-    background-position: 6%;
-    background-size: 50px;*/
-    padding: 23px 0 0 40px;
+    padding: 17px 0 0 40px;
     font-size: xx-large;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
 }
-
-
 
 .dash-icon {
     height: 70px;
     width: 70px;
-    margin-right: 13px;
-}
-/*
-.home {
-    background: url(icons/home.svg) no-repeat;
-    background-position: 8%;
+    margin-right: 8px;
 }
 
-.profile {
-    background: url(icons/profile.svg) no-repeat;
-    background-position: 8%;
-}
-
-.messages {
-    background: url(icons/messages.svg) no-repeat;
-    background-position: 8%;
-}
-
-.history {
-    background: url(icons/history.svg) no-repeat;
-    background-position: 8%;
-}
-
-.tasks {
-    background: url(icons/tasks.svg) no-repeat;
-    background-position: 8%;
-}
-
-.communities {
-    background: url(icons/community.svg) no-repeat;
-    background-position: 8%;
-}
-
-.settings {
-    background: url(icons/settings.svg) no-repeat;
-    background-position: 8%;
-}
-
-.support {
-    background: url(icons/support.svg) no-repeat;
-    background-position: 8%;
-}
-
-.privacy {
-    background: url(icons/privacy.svg) no-repeat;
-    background-position: 8%;
-}
-*/
 /* Main Content */
 .main-content {
     grid-column: 2 / 3;
