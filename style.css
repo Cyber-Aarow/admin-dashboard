@@ -195,6 +195,14 @@ img {
     background: linear-gradient(to right, rgb(255, 189, 67) 8px, white 0);
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.project p {
+    margin: 0 15% 0 25px;
+    font-size: 14px;
+    color: gray;
 }
 
 .mc-right {
@@ -209,6 +217,8 @@ img {
     justify-self: center;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 h3 {
@@ -224,11 +234,7 @@ h4 {
     font-size: larger;
 }
 
-.project p {
-    margin: 0 15% 0 25px;
-    font-size: 14px;
-    color: gray;
-}
+
 
 .proj-butt-1 {
     background: url(icons/star-plus.svg)
@@ -256,3 +262,6 @@ h4 {
     max-width: 100%;
 }
 
+.project button:active {
+    filter: invert(40%);
+}
