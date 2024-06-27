@@ -257,7 +257,9 @@ h4 {
 }
 
 hr {
-
+    color: rgb(236, 236, 236);
+    border: 0.5px solid;
+    margin: 15px 40px 15px 40px;
 }
 
 .proj-butt-1 {
