@@ -205,49 +205,6 @@ img {
     color: gray;
 }
 
-.mc-right {
-    grid-template-rows: 50px 1fr 30px 1fr;
-}
-
-.announcements, .trending {
-    height: 90%;
-    width: 75%;
-    background-color: white;
-    align-self: top;
-    justify-self: center;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-
-h3 {
-    margin: 25px 0 0 50px;
-}
-
-.trending-h3 {
-    margin-top: 5px;
-}
-
-h4 {
-    margin: 30px 40px 2px 25px;
-    font-size: larger;
-}
-
-
-
-.proj-butt-1 {
-    background: url(icons/star-plus.svg)
-}
-
-.proj-butt-2 {
-    background: url(icons/eye-plus.svg);
-}
-
-.proj-butt-3{
-    background: url(icons/source-branch.svg);
-}
-
 .project button {
     height: 25px;
     width: 25px;
@@ -264,4 +221,53 @@ h4 {
 
 .project button:active {
     filter: invert(40%);
+}
+
+.mc-right {
+    grid-template-rows: 50px 1fr 30px 1fr;
+}
+
+.announcements, .trending {
+    height: 90%;
+    width: 75%;
+    background-color: white;
+    align-self: top;
+    justify-self: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.announcements p {
+    font-size: xx-small;
+}
+
+h3 {
+    margin: 25px 0 0 50px;
+}
+
+.trending-h3 {
+    margin-top: 5px;
+}
+
+h4 {
+    margin: 30px 40px 2px 25px;
+    font-size: larger;
+}
+
+hr {
+
+}
+
+.proj-butt-1 {
+    background: url(icons/star-plus.svg)
+}
+
+.proj-butt-2 {
+    background: url(icons/eye-plus.svg);
+}
+
+.proj-butt-3{
+    background: url(icons/source-branch.svg);
 }
