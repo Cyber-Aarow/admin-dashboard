@@ -176,12 +176,25 @@ img {
     background-color: rgb(228, 231, 233);
 }
 
+h3 {
+    margin: 25px 0 0 50px;
+}
+
+.trending-h3 {
+    margin-top: 5px;
+}
+
 .mc-left {
     grid-template-rows: 50px 1fr;
 }
 .projects-area {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+h4 {
+    margin: 30px 40px 2px 25px;
+    font-size: 22px;
 }
 
 .project {
@@ -254,28 +267,20 @@ img {
     padding: 25px 25px 25px 25px;
 }
 
+h5 {
+    font-size: 18px;
+}
+
 .announcements p {
-    font-size: small;
+    font-size: 15px;
     max-height: 60px;
     width: calc(100%);
+    color: gray;
 
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-
-h3 {
-    margin: 25px 0 0 50px;
-}
-
-.trending-h3 {
-    margin-top: 5px;
-}
-
-h4 {
-    margin: 30px 40px 2px 25px;
-    font-size: larger;
 }
 
 hr {
