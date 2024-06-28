@@ -130,7 +130,7 @@ body {
     align-items: center;
 }
 
-li:hover {
+.sidebar li:hover {
     background-color: rgb(7, 87, 153);
 }
 
@@ -292,6 +292,11 @@ hr {
 .trending li {
     display: grid;
     grid-auto-flow: column;
+}
+
+.trending li:hover {
+    background-color: rgb(240, 239, 239);
+    border: 1px solid black;
 }
 
 .trending-pfp {
