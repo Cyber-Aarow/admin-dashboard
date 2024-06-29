@@ -289,9 +289,17 @@ hr {
     margin: 15px 40px 15px 40px;
 }
 
+.trending {
+    padding: 15px 0 15px;
+}
+
 .trending li {
     display: grid;
     grid-auto-flow: column;
+    grid-template-columns: 25% 1fr;
+    padding: 10px 0 10px;
+    gap: 15px;
+
 }
 
 .trending li:hover {
@@ -303,6 +311,7 @@ hr {
     width: 55px;
     height: auto;
     border-radius: 50%;
+    justify-self: right;
 }
 
 h6 {
