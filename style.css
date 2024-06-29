@@ -37,13 +37,14 @@ body {
 
 .header-top {
     grid-auto-flow: column;
-    gap: 170px;
+    grid-template-columns: 6fr 1fr 2fr;
 }
 
 .search-area {
     grid-auto-flow: column;
     grid-template-columns: 70px 1fr;
-    gap: 10px
+    gap: 10px;
+    min-width: fit-content;
 }
 
 #search-button {
@@ -59,7 +60,15 @@ body {
     background-color: rgb(228, 231, 233);
     height: 35px;
     width: 89%;
+    min-width: 200px;
     border-radius: 10px;
+}
+
+.user-buttons {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40px 1fr 1fr;
+    gap: 30px;
 }
 
 .bell {
@@ -72,6 +81,24 @@ body {
 
 .bell:hover {
     filter: invert(40%);
+}
+
+.account img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.account {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60px 1fr;
+    gap: 30px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+    white-space: nowrap;
 }
 
 .header-bottom{
