@@ -222,6 +222,10 @@ h3 {
     margin: 25px 0 0 50px;
 }
 
+#projects-heading {
+    margin-left: 60px;
+}
+
 .trending-h3 {
     margin-top: 5px;
 }
