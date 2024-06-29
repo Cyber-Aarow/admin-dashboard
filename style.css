@@ -37,6 +37,7 @@ body {
 
 .header-top {
     grid-auto-flow: column;
+    gap: 170px;
 }
 
 .search-area {
@@ -59,6 +60,18 @@ body {
     height: 35px;
     width: 89%;
     border-radius: 10px;
+}
+
+.bell {
+    border-radius: 50%;
+    background: url(icons/bell-ring-outline.svg);
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+
+.bell:hover {
+    filter: invert(40%);
 }
 
 .header-bottom{
@@ -244,7 +257,7 @@ h4 {
     background: url(icons/source-branch.svg);
 }
 
-.project button:active {
+.project button:hover {
     filter: invert(40%);
 }
 
